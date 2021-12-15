@@ -1,0 +1,13 @@
+org 100h
+MOV AX, 200
+SUB AX, 225
+MOV BX, 12
+MUL AX     
+MOV BX, 127
+ADD AX, BX 
+OUT 199,AX
+RET
+
+
+
+
